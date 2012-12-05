@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D71FC62-7771-4844-B436-40586CA1B28C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RobertLw.Windows.WinForm</RootNamespace>
+    <AssemblyName>RobertLw.Windows.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlphaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaForm.Designer.cs">
+      <DependentUpon>AlphaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClickedCircle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClickedCircle.Designer.cs">
+      <DependentUpon>ClickedCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RobertLw.WinOS.Api\RobertLw.WinOS.Api.csproj">
+      <Project>{C26E7F9A-786F-47C4-8DB9-064AF638C5F8}</Project>
+      <Name>RobertLw.WinOS.Api</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AlphaForm.resx">
+      <DependentUpon>AlphaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClickedCircle.resx">
+      <DependentUpon>ClickedCircle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clicked_circle27.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
